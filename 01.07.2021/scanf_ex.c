@@ -2,9 +2,9 @@
 
 int main(void) {
   int age=0, i1,i2;
-  printf("Enter age: ");
-  i1 = scanf("%d", &age);
+  printf("Enter values for I1 and I2 : ");
+  scanf("%d %d", &i1, &i2);
 
-  printf("%d", i1);
+ 
   return 0;
 }
